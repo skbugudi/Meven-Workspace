@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Data Driven Tests]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestLogin(failed)">
+    <classes>
+      <class name="com.mentor.testcases.TestLogin">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tesLogin"/>
+        </methods>
+      </class> <!-- com.mentor.testcases.TestLogin -->
+    </classes>
+  </test> <!-- TestLogin(failed) -->
+</suite> <!-- Failed suite [Data Driven Tests] -->
