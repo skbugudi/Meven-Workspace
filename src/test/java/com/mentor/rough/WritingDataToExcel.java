@@ -29,7 +29,7 @@ public class WritingDataToExcel extends TestBase{
 
 //		cell.setCellType();
 		cell.setCellValue("This is my first entry");
-		log.debug("Value created");
+		log.debug("Value created test maven");
 
 		fis.close();
 		workbook.close();
